@@ -1,0 +1,8 @@
+*{
+	border: none;
+	border-radius: 8px;
+}
+
+#outer-box {
+	border: 3px solid;
+}
