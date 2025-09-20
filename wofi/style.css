@@ -1,8 +1,13 @@
 *{
 	border: none;
-	border-radius: 8px;
+	border-radius: 10px;
+}
+
+#input {
+	border-radius: 3px;
 }
 
 #outer-box {
-	border: 3px solid;
+	border: 3px solid; /* или 3px solid grey */
+	border-radius: 8px;
 }
