@@ -1,13 +1,15 @@
 *{
 	border: none;
-	border-radius: 10px;
+	border-radius: 10px; /*Закругление главное в 10px*/
 }
 
 #input {
-	border-radius: 3px;
+	border-radius: 3px; /*Чтобы был чуть прямоугольнее*/
+	margin: 3px; /*Чтобы был отступ*/
 }
 
 #outer-box {
 	border: 3px solid; /* или 3px solid grey */
-	border-radius: 8px;
+	border-radius: 8px; /*Чтобы не было белой обводки должно быть меньше 10px*/
+	padding: 3px; /*Чтобф был отступ*/
 }
