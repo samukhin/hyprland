@@ -8,3 +8,9 @@ margin-bottom: -2px;
 #pulseaudio-button {
 margin: -2px;
 }
+
+
+#docklike-plugin .window_count {
+font-size: 11px;
+color: black;
+}
