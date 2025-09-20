@@ -1,0 +1,10 @@
+#pulseaudio-button {
+margin-top: -2px;
+margin-bottom: -2px;
+}
+
+/*или*/
+
+#pulseaudio-button {
+margin: -2px;
+}
