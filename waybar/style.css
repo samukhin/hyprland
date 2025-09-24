@@ -42,6 +42,7 @@
 #tray menu {
   background-color: rgba(0,0,0,0.9);
   border-radius: 8px;
+  border: 1px solid grey;
 }
 
 #tray menu *:hover {
@@ -56,4 +57,5 @@
 tooltip {
   background-color: rgba(0,0,0,0.9);
   border-radius: 8px;
+  border: 1px solid grey;
 }
