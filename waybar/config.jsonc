@@ -122,6 +122,7 @@
 	  "device": "intel_backlight",
 	  "format": "{percent}% {icon}",
       "format-alt": "{icon}",
+      "tooltip-format": "{percent}% {icon}",
 	  "format-icons": ["", ""]
   },
   "custom/update": {
