@@ -66,8 +66,9 @@
   },
   "battery": {
     "format": "{capacity}% {icon}",
-    "format-discharging": "{capacity}% {icon}",
-    "format-charging": "{capacity}% {icon}",
+    /*"format-discharging": "{capacity}% {icon}",
+    "format-charging": "{capacity}% {icon}",*/
+    "format-alt": "{icon}",
     "format-plugged": "",
     "format-icons": {
       "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
@@ -120,6 +121,7 @@
   "backlight": {
 	  "device": "intel_backlight",
 	  "format": "{percent}% {icon}",
+      "format-alt": "{icon}",
 	  "format-icons": ["", ""]
   },
   "custom/update": {
