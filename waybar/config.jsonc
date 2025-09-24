@@ -12,7 +12,8 @@
     "network",
     "pulseaudio",
     "cpu",
-    "battery"
+    "battery",
+    "custom/update"
   ],
   "hyprland/workspaces": {
     "on-click": "activate",
@@ -59,7 +60,7 @@
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
     "spacing": 1,
-    "on-click": "omarchy-launch-wifi"
+    "on-click": "nm-connection-editor"
   },
   "battery": {
     "format": "{capacity}% {icon}",
@@ -74,7 +75,6 @@
     "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
     "tooltip-format-charging": "{power:>1.0f}W↑ {capacity}%",
     "interval": 5,
-    "on-click": "omarchy-menu power",
     "states": {
       "warning": 20,
       "critical": 10
@@ -84,8 +84,7 @@
     "format": "",
     "format-disabled": "󰂲",
     "format-connected": "",
-    "tooltip-format": "Devices connected: {num_connections}",
-    "on-click": "blueberry"
+    "tooltip-format": "Devices connected: {num_connections}"
   },
   "pulseaudio": {
     "format": "{icon}",
@@ -112,5 +111,10 @@
   "tray": {
     "icon-size": 12,
     "spacing": 12
-  }
+  },
+  "custom/update": {
+    "format": "",
+    "on-click": "killall waybar && sleep 1 && waybar",
+    "tooltip-format": "Omarchy Menu\n\nSuper + Alt + Space"
+  },
 }
