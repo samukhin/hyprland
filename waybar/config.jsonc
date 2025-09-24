@@ -121,7 +121,7 @@
 	  "device": "intel_backlight",
 	  "format": "{percent}% {icon}",
 	  "format-icons": ["", ""]
-  }
+  },
   "custom/update": {
     "format": "",
     "on-click": "killall waybar && sleep 1 && waybar",
