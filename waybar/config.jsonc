@@ -13,8 +13,8 @@
     "pulseaudio",
     "cpu",
     "battery",
-    "hyprland/language",
     "backlight",
+    "hyprland/language",
     "custom/update"
   ],
   "hyprland/workspaces": {
