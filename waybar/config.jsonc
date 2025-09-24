@@ -13,6 +13,7 @@
     "pulseaudio",
     "cpu",
     "battery",
+    "hyprland/language",
     "custom/update"
   ],
   "hyprland/workspaces": {
@@ -111,6 +112,9 @@
   "tray": {
     "icon-size": 12,
     "spacing": 12
+  },
+  "hyprland/language": {
+    "format": "{short}",
   },
   "custom/update": {
     "format": "",
