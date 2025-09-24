@@ -119,6 +119,6 @@
   "custom/update": {
     "format": "",
     "on-click": "killall waybar && sleep 1 && waybar",
-    "tooltip-format": "Omarchy Menu\n\nSuper + Alt + Space"
+    "tooltip-format": "Restart waybar"
   },
 }
