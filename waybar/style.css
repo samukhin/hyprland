@@ -53,6 +53,10 @@
   border-radius: 8px;
 }
 
+#tray * {
+  box-shadow: none;
+}
+
 #tray menu {
   background-color: rgba(0,0,0,0.8);
   border-radius: 9px;
