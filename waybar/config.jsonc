@@ -130,7 +130,7 @@
   },
   "custom/update": {
     "format": "",
-    "on-click": "killall waybar && sleep 1 && waybar",
+    "on-click": "kill -s kill $(pgrep -i waybar) && sleep 1 && waybar",
     "tooltip-format": "Restart waybar"
   },
 }
