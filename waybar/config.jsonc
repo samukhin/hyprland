@@ -90,14 +90,16 @@
     "tooltip-format": "Devices connected: {num_connections}"
   },
   "pulseaudio": {
-    "format": "{icon}",
+    "format": "{icon}  {format-source}",
     "on-click": "pavucontrol",
     "tooltip-format": "Playing at {volume}%",
     "scroll-step": 5,
-    "format-muted": "",
+    "format-muted": " {format-source}",
     "format-icons": {
       "default": ["", "", ""]
-    }
+    },
+    "format-source": "",
+    "format-source-muted": "",
   },
   "group/tray-expander": {
     "orientation": "inherit",
