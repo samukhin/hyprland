@@ -1,41 +1,48 @@
 * {
-  background-color: transparent;
-  color: white;
+  background-color: transparent; /* Чтобы все фоны были изначально прозрачными */
+  color: white; /* А текст белый */
   border: none;
   border-radius: 0;
-  min-height: 0;
-  font-family: CaskaydiaMono Nerd Font;
+  min-height: 0; /* Чтобы панель была как можно более уже */
+  font-family: CaskaydiaMono Nerd Font; /* Если шрифта не будет, возьмётся какой-то другой */
   font-size: 12px;
 }
 
+/* Отступ слева от левых модулей */
 .modules-left {
   margin-left: 8px;
 }
 
+/* Отступ справа от правых модулей */
 .modules-right {
   margin-right: 8px;
 }
 
+/* Кнопки workspace */
 #workspaces button {
   all: initial;
   margin: 0 6px;
   min-width: 9px;
 }
 
+/* Кнопки workspace, если на workspace нет окон, типа более блеклые */
 #workspaces button.empty {
   opacity: 0.5;
 }
 
+/* Чтобы при проведении мышью по workspace выделялось */
 #workspaces button:hover {
   background-color: rgba(255,255,255,0.1);
   border-radius: 8px;
 }
 
+/* Чтобы при проведении мышью по workspace выделялось, но сильнее, так как там более прозрачно */
 #workspaces button.empty:hover {
   background-color: rgba(255,255,255,0.2);
   border-radius: 8px;
 }
 
+/* Чтобы были нормальные отступы у правых модулей */
 #tray,
 #cpu,
 #battery,
@@ -49,6 +56,7 @@
   margin: 0 7.5px;
 }
 
+/* Чтобы модули при выделении подсвечивались */
 #clock:hover,
 #tray:hover,
 #cpu:hover,
@@ -63,25 +71,30 @@
   border-radius: 8px;
 }
 
+/* Убрать тень у меню трея */
 #tray * {
   box-shadow: none;
 }
 
+/* Стиль меню трея как у tooltip в libadwaita gtk */
 #tray menu {
   background-color: rgba(0,0,0,0.8);
   border-radius: 9px;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* Чтобы выделялись пункты меню при наведении мышью */
 #tray menu *:hover {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 9px;
 }
 
+/* Отступ для меню скрытия трея */
 #custom-expand-icon {
   margin-right: 7px;
 }
 
+/* Стиль подсказки как у tooltip в libadwaita gtk */
 tooltip {
   background-color: rgba(0,0,0,0.8);
   border-radius: 9px;
