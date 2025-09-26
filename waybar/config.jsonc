@@ -43,8 +43,9 @@
   },
   "cpu": {
     "interval": 5,
-    "format": "󰍛",
-    "on-click": "konsole -e htop"
+    "format": "{load} 󰍛",
+    "format-alt": "󰍛",
+    "on-click-right": "konsole -e htop"
   },
   "clock": {
     "format": "{:L%A %H:%M}",
