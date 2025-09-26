@@ -26,6 +26,16 @@
   opacity: 0.5;
 }
 
+#workspaces button:hover {
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 8px;
+}
+
+#workspaces button.empty:hover {
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 8px;
+}
+
 #tray,
 #cpu,
 #battery,
