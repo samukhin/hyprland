@@ -21,7 +21,7 @@
 /* Кнопки workspace */
 #workspaces button {
   all: initial;
-  margin: 0 6px;
+  padding: 0 6px; /* padding, чтобы было удобнее попадать по кнопкам столов */
   min-width: 9px;
 }
 
