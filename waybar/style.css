@@ -58,7 +58,7 @@
 
 /* Чтобы модули при выделении подсвечивались */
 #clock:hover,
-#tray:hover,
+#tray > widget:hover,
 #cpu:hover,
 #battery:hover,
 #network:hover,
