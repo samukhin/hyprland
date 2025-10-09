@@ -10,7 +10,8 @@
 
 /* Из-за глюка с размытием, нужно панель сделать хотя бы немного непрозрачной, ну и углы закрутить посильнее */
 #waybar {
-  background-color: rgba(0, 0, 0, 0.2);
+  /*background-color: rgba(0, 0, 0, 0.2);*/
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0));
   border-radius: 50px;
 }
 
