@@ -49,8 +49,8 @@
     "on-click-right": "konsole -e htop"
   },
   "clock": {
-    "format": "{:L%A %H:%M}",
-    "format-alt": "{:L%d %B W%V %Y}",
+    "format": "󰸗 {:L%A %H:%M}",
+    "format-alt": "󰸗 {:L%d %B W%V %Y}",
     "tooltip": false
   },
   "network": {
