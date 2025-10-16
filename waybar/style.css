@@ -67,6 +67,7 @@
 /* Чтобы были нормальные отступы у правых модулей */
 #tray,
 #cpu,
+#temperature,
 #battery,
 #network,
 #bluetooth,
@@ -82,6 +83,7 @@
 #clock:hover,
 #tray > widget:hover,
 #cpu:hover,
+#temperature:hover,
 #battery:hover,
 #network:hover,
 #bluetooth:hover,
