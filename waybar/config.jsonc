@@ -13,6 +13,7 @@
     "network",
     "pulseaudio",
     "cpu",
+    "temperature",
     "battery",
     "backlight",
     "hyprland/language",
@@ -47,6 +48,13 @@
     "format": "{load} 󰍛",  /* Это load average */
     "format-alt": "󰍛",
     "on-click-right": "konsole -e htop"
+  },
+  "temperature": {
+	"thermal-zone": 2,
+	"hwmon-path": ["/sys/class/hwmon/hwmon2/temp1_input", "/sys/class/thermal/thermal_zone0/temp"],
+	"critical-threshold": 80,
+	"format-critical": "{temperatureC}°C ",
+	"format": "{temperatureC}°C "
   },
   "clock": {
     "format": "󰸗 {:L%A %H:%M}",
