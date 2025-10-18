@@ -23,7 +23,7 @@ void main() {
     pixColor.a);
     } else {
     //Если нет, остаёмся со старым цветом
-    //fragColor = vec4(pixColor.r,pixColor.g,pixColor.b, pixColor.a);
+    fragColor = pixColor;
     }
   
 }
