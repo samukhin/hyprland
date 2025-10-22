@@ -52,9 +52,14 @@
   "temperature": {
 	"thermal-zone": 2,
 	"hwmon-path": ["/sys/class/hwmon/hwmon2/temp1_input", "/sys/class/thermal/thermal_zone0/temp"],
-	"critical-threshold": 80,
-	"format-critical": "{temperatureC}°C ",
-	"format": "{temperatureC}°C "
+	"critical-threshold": 100,
+    "warning-threshold": 80,
+	/*"format-critical": "{temperatureC}°C ",*/
+	"format": "{temperatureC}°C {icon}",
+        "format-alt": "{icon}",
+        "format-icons": {
+          "default": [ "", "", "", "", "" ]
+        }
   },
   "clock": {
     "format": "󰃰 {:L%A %H:%M}",
