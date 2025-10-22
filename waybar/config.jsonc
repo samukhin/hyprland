@@ -11,7 +11,9 @@
     "group/tray-expander",
     "bluetooth",
     "network",
-    "pulseaudio",
+    /*"pulseaudio",*/
+    "pulseaudio#sink",
+    "pulseaudio#source",
     "cpu",
     "temperature",
     "battery",
@@ -104,7 +106,8 @@
     "format-connected": "",
     "tooltip-format": "Devices connected: {num_connections}"
   },
-  "pulseaudio": {
+/*
+"pulseaudio": {
     "format": "{icon}  {format_source}",
     "on-click": "pavucontrol",
     "tooltip-format": "Playing at {volume}%",
@@ -113,6 +116,25 @@
     "format-icons": {
       "default": ["", "", ""]
     },
+    "format-source": "",
+    "format-source-muted": "",
+  },
+*/
+  "pulseaudio#sink": {
+    "format": "{icon}",
+    "on-click": "pavucontrol",
+    "tooltip-format": "Playing at {volume}%",
+    "scroll-step": 5,
+    "format-muted": "",
+    "format-icons": {
+      "default": ["", "", ""]
+    },
+  },
+  "pulseaudio#source": {
+    "format": "{format_source}",
+    "on-click": "pavucontrol",
+    "tooltip-format": "Playing at {volume}%", 
+    "scroll-step": 5,
     "format-source": "",
     "format-source-muted": "",
   },
