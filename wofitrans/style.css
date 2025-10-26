@@ -1,0 +1,49 @@
+*{
+	border: none; /*Убрать лишние рамки*/
+	border-radius: 8px; /*Закругление главное в 10px*/
+        box-shadow: none;
+        background: transparent;
+}
+
+window * {
+/*background: transparent;*/
+}
+
+#window {
+background-color: rgba(0,0,0,0.2);
+}
+
+#input {
+	margin-bottom: 3px; /*Чтобы был отступ*/
+        background-color: rgba(0,0,0,0.2);
+}
+
+#inner-box {
+        background-color: rgba(0,0,0,0.2);
+}
+
+#inner-box #entry:selected {
+        background-color: rgba(255,255,255,0.1);
+}
+
+#expander-box {
+        background-color: rgba(255,255,255,0.1);
+}
+
+#expander-box *:hover {
+        background-color: rgba(255,255,255,0.1);
+}
+
+#expander-box *:selected {
+        background-color: rgba(255,255,255,0.1);
+}
+
+#outer-box {
+	padding: 3px; /*Чтобы был внешний отступ со всех сторон*/
+}
+
+/*Убрать полосы снизу и сверху при прокрутке*/
+overshoot {
+background: transparent;
+}
+
