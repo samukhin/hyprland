@@ -1,0 +1,69 @@
+
+position: left
+icon_theme: Papirus
+height: 0
+width: 0
+
+start:
+- type: menu
+  label: 󱓞 Menu
+  center: []
+  start:
+  - type: custom
+    label: Terminal
+    on_click: foot
+  - type: custom
+    label: File Manager
+    on_click: dolphin
+- type: focused
+  icon_size: 16
+  truncate:
+    max_length: 5
+    mode: middle
+
+center:
+- type: clock
+  orientation: v
+  format: "%d/%m\n%H:%M"
+- type: notifications
+
+end:
+- type: custom
+  bar:
+  - type: button
+    label: 󰄠
+    on_click: popup:toggle
+  popup:
+  - type: box
+    orientation: vertical
+    widgets:
+    - type: tray
+- type: custom
+  bar:
+  - type: button
+    label:  
+    on_click: popup:toggle
+  popup:
+  - type: box
+    orientation: vertical
+    widgets:
+    - type: sys_info
+      format:
+      - '{cpu_percent}% '
+      - '{memory_percent}% '
+      interval:
+        cpu: 1
+- type: clipboard
+  max_items: 5
+  truncate:
+    mode: end
+    length: 30
+- type: volume
+- type: battery
+  justify: center
+  orientation: horizontal
+- type: custom
+  bar:
+  - type: button
+    label: 
+    on_click: "!ironbar reload"

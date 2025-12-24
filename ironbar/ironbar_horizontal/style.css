@@ -1,0 +1,48 @@
+* {
+font-family: Adwaita; /* Если шрифта не будет, возьмётся какой-то другой */
+}
+
+.background {
+/* round and global margin padding */
+border-radius: 50px;
+margin: 3px;
+padding: 3px;
+}
+
+#bar .widget .text-button {
+/* height panel */
+min-height: 0px;
+}
+
+#bar  .widget {
+
+margin: 0 3px;
+padding: 0px;
+
+font-weight: bold;
+font-size: 14px;
+
+min-width: 50px;
+}
+
+.focused .icon {
+    filter: grayscale(100%) sepia(50%) saturate(150%);
+}
+
+.tray .item {
+    filter: grayscale(100%) sepia(50%) saturate(150%);
+    margin: 6px;
+}
+
+.volume .popup-volume {
+    margin-right: -6px;
+}
+
+.main .category {
+    margin: 3px;    
+}
+
+
+.battery .icon {
+    filter: grayscale(100%) sepia(50%) saturate(150%);
+}
